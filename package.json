@@ -1,0 +1,23 @@
+{
+  "name": "amatchneer-eleventy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:site": "eleventy --quiet",
+    "build": "npm run build:site",
+    "watch:site": "eleventy --serve",
+    "watch": "npm run watch:site",
+    "serve": "env DEV=true eleventy --quiet --serve --incremental",
+    "clean": "rm -rf public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "11ty.ts": "^0.0.6",
+    "@11ty/eleventy": "^3.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
