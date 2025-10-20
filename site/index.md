@@ -3,4 +3,4 @@
 
 # New Blog
 
-TODO: all the things.
+TODO: all the things. Test; does it update?
